@@ -1,0 +1,14 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "a simple node http server",
+  "main": "myserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edilson Morais",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
