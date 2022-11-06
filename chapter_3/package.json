@@ -1,0 +1,14 @@
+{
+  "name": "chapter_3",
+  "version": "1.0.0",
+  "description": "chapter 3 of the book express in action",
+  "main": "helloexpress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edilson Morais",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
