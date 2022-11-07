@@ -3,7 +3,7 @@ var http = require("http")
 var app = express()
 
 app.use(function(request, response, next){
-    console.log("In comes a" + request.method + " to " + request.url)
+    console.log("In comes a " + request.method + " to " + request.url)
     next()
 })
 
