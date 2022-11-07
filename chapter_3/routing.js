@@ -19,6 +19,11 @@ app.get("/weather", function(request, response) {
     response.end("The current weather is NICE!")
 })
 
+app.get("/hello/:who", function(request, response) {
+    response.end("Hello, " + request.params.who + "." )
+    // This has some security issues!
+})
+
 app.use(function(request, response) {
     response.statusCode = 404
     response.end("404!")
