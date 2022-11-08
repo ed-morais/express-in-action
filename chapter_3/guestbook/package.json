@@ -1,0 +1,17 @@
+{
+  "name": "guestbook",
+  "version": "1.0.0",
+  "description": "Users can write new entries in the online guestbook",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Edilson Morais",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
