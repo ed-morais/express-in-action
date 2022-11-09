@@ -43,8 +43,8 @@ app.post("/new-entry", function (request, response) {
   // Adds a new entry to the list of entries
   entries.push({
     title: request.body.title,
-    content: request.body.body,
-    published: new Date(),
+    body: request.body.body,
+    published: new Date(Date.now()).toLocaleString()
   });
   // Redirects to the homepage to see the new entry
   response.redirect("/");

@@ -1,14 +1,14 @@
 <%- include ('header.ejs') %>
 <% if (entries.length) { %>
   <% entries.forEach(function(entry) { %>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <div class="text-muted pull-right">
+    <div class="card b">
+      <div class="card-header">
+        <div class="form-text text-muted float-right">
           <%= entry.published %>
         </div>
         <%= entry.title %>
       </div>
-      <div class="panel-body">
+      <div class="card-body">
         <%= entry.body %>
       </div>
     </div>
