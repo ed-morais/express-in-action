@@ -9,7 +9,7 @@ app.use(logger("short"));
 var staticPath = path.join(__dirname, "static");
 app.use(express.static(staticPath));
 
-app.use(function (req, res) {
+app.use(function(req, res) {
   res.status(404);
   res.send("File not found");
 });

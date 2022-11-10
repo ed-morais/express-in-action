@@ -1,0 +1,11 @@
+{
+  "name": "single-file-sender",
+  "version": "1.0.0",
+  "description": "A simple app that always send a file",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Edilson Morais",
+  "license": "ISC"
+}
