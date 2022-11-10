@@ -1,0 +1,11 @@
+{
+  "name": "static-file-express",
+  "version": "1.0.0",
+  "description": "app to serve static files",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Edilson Morais",
+  "license": "ISC"
+}
